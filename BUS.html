@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bus Ticket Reservation System</title>
+</head>
+
+<body style="background-color: pink;">
+<center>
+<h1><font color="Maroon">BUS TICKET RESERVATION SYSTEM</font></h1>
+
+</center>
+
+<hr>
+
+<h2><font color="DarkBlue">Available Bus Details</font></h2>
+
+<table border="1" width="100%" cellpadding="8">
+
+<tr bgcolor="LightGray">
+<th>Bus Image</th>
+<th>Bus Name</th>
+<th>Morning</th>
+<th>Evening</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Fare</th>
+</tr>
+
+<tr align="center">
+<td><img src="setc.jpg" width="100" height="80"></td>
+<td>SETC</td>
+<td>Available</td>
+<td>Not Available</td>
+<td>Nagercoil - 6:00 AM</td>
+<td>Tirunelveli - 3:00 PM</td>
+<td>₹350</td>
+</tr>
+
+<tr align="center">
+<td><img src="bye pass rider.jpg" width="100" height="80"></td>
+<td>Bye-Pass Rider</td>
+<td>Not Available</td>
+<td>Available</td>
+<td>Madurai - 3:00 PM</td>
+<td>Chennai - 3:00 AM</td>
+<td>₹650</td>
+</tr>
+
+</table>
+
+<br>
+
+<h2><font color="DarkBlue">Bus Ticket Reservation Form</font></h2>
+
+<form>
+
+<table border="1" cellpadding="10">
+
+<tr>
+<td><b>Passenger Name</b></td>
+<td><input type="text" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Mobile Number</b></td>
+<td><input type="tel" maxlength="10"></td>
+</tr>
+
+<tr>
+<td><b>Bus Name</b></td>
+<td>
+<select>
+<option>Select Bus</option>
+<option>SETC</option>
+<option>By-Pass Rider</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><b>Source</b></td>
+<td>
+<select>
+<option>Nagercoil</option>
+<option>Madurai</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><b>Destination</b></td>
+<td>
+<select>
+<option>Tirunelveli</option>
+<option>Chennai</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><b>Journey Date</b></td>
+<td><input type="date"></td>
+</tr>
+
+<tr>
+<td><b>Journey Time</b></td>
+<td>
+<select>
+<option>6:00 AM</option>
+<option>3:00 PM</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><b>Number of Passengers</b></td>
+<td><input type="number" min="1" max="10"></td>
+</tr>
+
+<tr>
+<td><b>Seat Type</b></td>
+<td>
+<input type="radio" name="seat"> AC
+<input type="radio" name="seat"> Non AC
+</td>
+</tr>
+
+<tr>
+<td><b>Preferred Seat</b></td>
+<td>
+<select>
+<option>Window</option>
+<option>Middle</option>
+<option>Aisle</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><b>Food Required</b></td>
+<td>
+<input type="radio" name="food"> Yes
+<input type="radio" name="food"> No
+</td>
+</tr>
+
+<tr>
+<td><b>Payment Method</b></td>
+<td>
+<input type="radio" name="pay"> UPI
+<input type="radio" name="pay"> Card
+<input type="radio" name="pay"> Cash
+</td>
+</tr>
+
+<tr>
+<td><b>Confirm Booking</b></td>
+<td>
+<input type="checkbox"> I Agree
+</td>
+</tr>
+
+<tr align="center">
+<td colspan="2">
+<input type="submit" value="Reserve Ticket">
+<input type="button" value="Cancel">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+<br>
+
+</body>
+<a href="HOME.html">HOME PAGE</a>
+
+</html>

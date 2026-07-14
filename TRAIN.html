@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Train Reservation System</title>
+</head>
+
+<body bgcolor="#F0F8FF">
+
+<center>
+    <h1><font color="Maroon">TRAIN RESERVATION SYSTEM</font></h1>
+
+ </center>
+
+<h2><font color="DarkBlue">Train Details</font></h2>
+
+<table border="1" width="100%" cellpadding="8">
+
+<tr bgcolor="LightGray">
+    <th>Train Image</th>
+    <th>Train Name</th>
+    <th>Morning</th>
+    <th>Evening</th>
+    <th>Source : Timing</th>
+    <th>Destination : Timing</th>
+    <th>Fare</th>
+</tr>
+
+<tr align="center">
+    <td><img src="vandae bharat.jpg" width="120" height="80"></td>
+    <td>Vande Bharat</td>
+    <td>Available</td>
+    <td>Not Available</td>
+    <td>Chennai : 6:00 AM</td>
+    <td>Kanyakumari : 4:00 PM</td>
+    <td>Rs.750</td>
+</tr>
+
+<tr align="center">
+    <td><img src="chennai express.jpg" width="120" height="80"></td>
+    <td>Chennai Express</td>
+    <td>Not Available</td>
+    <td>Available</td>
+    <td>Madurai : 5:00 PM</td>
+    <td>Vellore : 3:00 AM</td>
+    <td>Rs.450</td>
+</tr>
+
+</table>
+
+<br>
+
+<h2><font color="DarkBlue">Train Ticket Reservation Form</font></h2>
+
+<form>
+
+<table border="1" cellpadding="10" bgcolor="White">
+
+<tr>
+    <td><b>Passenger Name</b></td>
+    <td><input type="text" size="30"></td>
+</tr>
+
+<tr>
+    <td><b>Mobile Number</b></td>
+    <td><input type="tel" maxlength="10"></td>
+</tr>
+
+
+<tr>
+    <td><b>Train Name</b></td>
+    <td>
+        <select>
+            <option>Select Train</option>
+            <option>Vande Bharat</option>
+            <option>Chennai Express</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td><b>Source</b></td>
+    <td>
+        <select>
+            <option>Chennai</option>
+            <option>Madurai</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td><b>Destination</b></td>
+    <td>
+        <select>
+            <option>Kanyakumari</option>
+            <option>Vellore</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td><b>Journey Date</b></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><b>Journey Time</b></td>
+    <td>
+        <select>
+            <option>Morning</option>
+            <option>Evening</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td><b>Number of Tickets</b></td>
+    <td><input type="number" min="1" max="10"></td>
+</tr>
+
+<tr>
+    <td><b>Class</b></td>
+    <td>
+        <input type="radio" name="class"> Sleeper
+        <input type="radio" name="class"> AC
+        <input type="radio" name="class"> First Class
+    </td>
+</tr>
+
+<tr>
+    <td><b>Food Required</b></td>
+    <td>
+        <input type="radio" name="food"> Yes
+        <input type="radio" name="food"> No
+    </td>
+</tr>
+
+<tr>
+    <td><b>Payment Method</b></td>
+    <td>
+        <input type="radio" name="payment"> UPI
+        <input type="radio" name="payment"> Debit Card
+        <input type="radio" name="payment"> Credit Card
+        <input type="radio" name="payment"> Cash
+    </td>
+</tr>
+
+<tr>
+    <td><b>Confirm Booking</b></td>
+    <td>
+        <input type="checkbox"> I agree to the Terms and Conditions.
+    </td>
+</tr>
+
+<tr align="center">
+    <td colspan="2">
+        <input type="submit" value="BOOK NOW">
+        <input type="button" value="CANCEL">
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+<a href="home.html"><b>HOME PAGE</b></a>
+
+</body>
+</html>
