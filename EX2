@@ -1,1 +1,539 @@
+LOGIN.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Toy World - Login</title>
+</head>
+<body bgcolor="lightyellow">
+<center>
+<h1><font color="darkblue"><i>WELCOME TO TOY WORLD</i></font></h1>
+<h3><font color="darkred">
+Your One-Stop Destination for Fun, Learning and Adventure!
+</font></h3>
+<img src="toybg.png" width="500" height="280" alt="Toy World Banner">
+</center>
+<center>
+<h2><font color="darkgreen">USER LOGIN</font></h2>
+<form onsubmit="alert('Login Successful!'); return false;">
+<table border="1" cellpadding="12" cellspacing="0" bgcolor="lightcyan">
+<tr bgcolor="lightgreen">
+<th colspan="2">
+<font size="5">Login Form</font>
+</th>
+</tr>
+<tr>
+<td><b>Username</b></td>
+<td>
+<input type="text" placeholder="Enter Username">
+
+</td>
+</tr>
+<tr>
+<td><b>Password</b></td>
+<td>
+<input type="password" placeholder="Enter Password">
+</td>
+</tr>
+<tr>
+<td><b>User Type</b></td>
+<td>
+<input type="radio" name="user"> Customer
+<input type="radio" name="user"> Admin
+</td>
+</tr>
+<tr>
+<td><b>Remember Me</b></td>
+<td>
+<input type="checkbox"> Yes
+</td>
+</tr>
+<tr bgcolor="lightyellow">
+<td colspan="2" align="center">
+<input type="submit" value="Login"> &nbsp;&nbsp;
+<input type="reset" value="Clear">
+</td>
+
+</tr>
+</table>
+</form>
+<br>
+<b>New User?</b>
+<a href="register.html">Register Here</a>
+<br><br>
+</center>
+</body>
+</html>
+REGISTER.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Toy World - Login</title>
+</head>
+<body bgcolor="lightblue">
+<center>
+<h1><i>TOY WORLD REGISTRATION FORM <i></h1>
+<form>
+<table cellpadding="10">
+<tr>
+<td><b>Username:</b></td>
+<td><input type="text" placeholder="Enter Username"></td>
+</tr>
+<tr>
+<td><b>Password:</b></td>
+
+<td><input type="password" placeholder="Enter Password"></td>
+</tr>
+<tr>
+<td><b>Confirm Password:</b></td>
+<td><input type="password" placeholder="Re-Enter the Password"></td>
+</tr>
+<tr>
+<td><b>Email:</b></td>
+<td><input type="email" placeholder="Enter the email"></td>
+</tr>
+<tr>
+<td><b>Phone Number:</b></td>
+<td><input type="phone number" placeholder="Enter Phone number"></td>
+</tr>
+
+
+<tr>
+<td><b><i><label>Address:</label></i></b></td>
+<td>
+<textarea name="address" rows="4" cols="30" placeholder="Enter your address"></textarea>
+</td>
+</tr>
+<tr>
+<td><b><i><label>Pincode:</label></i></b></td>
+<td>
+<input type="text" name="pincode" maxlength="6" placeholder="Enter Pincode">
+</td>
+
+</tr>
+<tr>
+<td><b><i><label>City:</label></i></b></td>
+<td>
+<input type="text" name="city" placeholder="Enter City">
+</td>
+</tr>
+<tr>
+<td><b><i><label>State:</label></i></b></td>
+<td>
+<select name="state">
+<option>Select State</option>
+<option>Tamil Nadu</option>
+<option>Kerala</option>
+<option>Karnataka</option>
+<option>Andhra Pradesh</option>
+<option>Telangana</option>
+<option>Maharashtra</option>
+<option>Delhi</option>
+<option>Gujarat</option>
+<option>West Bengal</option>
+<option>Uttar Pradesh</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+<input type="submit" value="Login">
+</td>
+</tr>
+</table>
+</form>
+<a href="login.html">LOGIN PAGE</a>
+</center>
+</body>
+</html>
+PRODUCT.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Toy World - Product Categories</title>
+</head>
+<body bgcolor="aliceblue">
+<center>
+<h1><i>WELCOME TO TOY WORLD</i></h1>
+<h3>Your One-Stop Destination for Fun, Learning and Adventure!</h3>
+</center>
+<hr>
+<h2><i>ABOUT OUR TOY COLLECTION</i></h2>
+<p align="justify">
+Welcome to <b>Toy World</b>, where every child discovers a world of happiness and creativity. We have organized our toys into two exciting categories to make shopping easy and enjoyable. Whether you are looking for dolls and soft toys for girls or
+remote control cars and action figures for boys, we offer high-quality products that
+
+encourage imagination, learning, and endless fun. Click on any category below to explore our amazing collection of toys.
+</p>
+<hr>
+<center>
+<h2><i>SHOP BY CATEGORY</i></h2>
+<p>Select your favorite toy category by clicking on the image.</p>
+</center>
+<table border="1" width="90%" align="center" cellpadding="15" cellspacing="0">
+<tr bgcolor="lightgreen">
+<th>Girls Toys</th>
+<th>Boys Toys</th>
+</tr>
+<tr>
+<td align="center">
+<a href="girls.html">
+<img src="girltoys.jpeg" width="320" height="230">
+</a>
+<br><br>
+<b>Girls Toy Collection</b>
+<p align="justify">
+Explore our wonderful collection of Barbie dolls, kitchen play sets, soft toys, beauty kits and many more fun and educational toys specially designed for girls.
+</p>
+</td>
+<td align="center">
+
+<a href="boys.html">
+<img src="boytoys.jpeg" width="320" height="230">
+</a>
+<br><br>
+<b>Boys Toy Collection</b>
+<p align="justify">
+Discover exciting remote control cars, action figures, robots,
+building blocks and adventure toys that provide hours of entertainment and learning.
+</p>
+</td>
+</tr>
+</table>
+<hr>
+<center>
+<h3>Why Choose Toy World?</h3>
+✔ High Quality Toys <br><br>
+✔ Safe for Children <br><br>
+✔ Affordable Prices <br><br>
+✔ Trusted by Thousands of Customers <br><br>
+✔ Fast Delivery Across India
+</center>
+<hr>
+<center>
+<h3>Contact Us</h3>
+<b>Email:</b> support@toyworld.com>
+<br><br>
+
+<b>Phone:</b> +91 9876543210
+<br><br>
+<b>Address:</b> Toy World, Madurai, Tamil Nadu
+<br><br>
+<p><b>&copy; 2026 Toy World. All Rights Reserved.</b></p>
+</center>
+</body>
+</html>
+GIRLS.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Girls Toys</title>
+</head>
+<body bgcolor="lavender">
+<center>
+<h1>Girls Toys Collection</h1>
+</center>
+<table border="1" width="100%" cellpadding="10" cellspacing="0">
+<tr bgcolor="pink">
+<th>Image</th>
+<th>Name</th>
+<th>Description</th>
+<th>Price</th>
+<th>Rating</th>
+<th>Video</th>
+<th>Action</th>
+
+</tr>
+<tr>
+<td align="center">
+<img src="barbie.jpg" width="120" height="120">
+</td>
+<td><b>Fashion Barbie</b></td>
+<td>
+Beautiful doll with stylish dress, long hair and movable hands.
+Perfect for children above 3 years.
+</td>
+<td><b>₹699</b></td>
+<td>★★★★★ (4.8)</td>
+<td align="center">
+<video width="180" controls>
+<source src="barbie.mp4" type="video/mp4">
+</video>
+</td>
+<td align="center">
+<button>Add to Cart</button>
+<br><br>
+<button>Buy Now</button>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="kitchenset.jpg" width="120" height="120">
+
+</td>
+<td><b>Kitchen Play Set</b></td>
+<td>
+Cooking toy set with stove, utensils and accessories for creative role play.
+</td>
+<td><b>₹899</b></td>
+<td>★★★★☆ (4.5)</td>
+<td align="center">
+<video width="180" controls>
+<source src="kitchenset.mp4" type="video/mp4">
+</video>
+</td>
+<td align="center">
+<button>Add to Cart</button>
+<br><br>
+<button>Buy Now</button>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="teddybear.jpg" width="120" height="120">
+</td>
+<td><b>Teddy Bear</b></td>
+<td>
+Soft and cuddly teddy bear made
+
+with premium fabric. Perfect gift for children.
+</td>
+<td><b>₹599</b></td>
+<td>★★★★★ (4.9)</td>
+<td align="center">
+<video width="180" controls>
+<source src="teddybear.mp4" type="video/mp4">
+</video>
+</td>
+<td align="center">
+<button>Add to Cart</button>
+<br><br>
+<button>Buy Now</button>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="beautykit.jpg" width="120" height="120">
+</td>
+<td><b>Beauty Kit</b></td>
+<td>
+Pretend makeup set with mirror, comb and accessories for fun playtime.
+</td>
+<td><b>₹799</b></td>
+
+<td>★★★★☆ (4.6)</td>
+<td align="center">
+<video width="180" controls>
+<source src="beautykit.mp4" type="video/mp4">
+</video>
+</td>
+<td align="center">
+<button>Add to Cart</button>
+<br><br>
+<button>Buy Now</button>
+</td>
+</tr>
+</table>
+<br>
+<center>
+<a href="product.html">
+<button>Back to Products</button>
+</a>
+</center>
+</body>
+</html>
+BOYS.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Boys Toys</title>
+</head>
+
+<body bgcolor="lightcyan">
+<center>
+<h1>Boys Toys Collection</h1>
+</center>
+<table border="1" width="100%" cellpadding="10" cellspacing="0">
+<tr bgcolor="lightblue">
+<th>Image</th>
+<th>Name</th>
+<th>Description</th>
+<th>Price</th>
+<th>Rating</th>
+<th>Video</th>
+<th>Action</th>
+</tr>
+<tr>
+<td align="center">
+<img src="racingcar.jpg" width="120" height="120">
+</td>
+<td><b>Remote Racing Car</b></td>
+<td>
+Rechargeable remote control racing car
+with LED lights and high-speed performance.
+</td>
+<td><b>₹1299</b></td>
+<td>★★★★★ (4.9)</td>
+<td align="center">
+<video width="180" controls>
+
+<source src="racingcar.mp4" type="video/mp4">
+</video>
+</td>
+<td align="center">
+<button>Add to Cart</button>
+<br><br>
+<button>Buy Now</button>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="robottoy.jpg" width="120" height="120">
+</td>
+<td><b>Robot Toy</b></td>
+<td>
+Walking robot with flashing lights, music and interactive movements.
+</td>
+<td><b>₹1599</b></td>
+<td>★★★★☆ (4.7)</td>
+<td align="center">
+<video width="180" controls>
+<source src="robot.mp4" type="video/mp4">
+</video>
+</td>
+<td align="center">
+<button>Add to Cart</button>
+
+<br><br>
+<button>Buy Now</button>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="blocks.jpg" width="120" height="120">
+</td>
+<td><b>Building Blocks</b></td>
+<td>
+Creative building block set that improves imagination and creativity.
+</td>
+<td><b>₹999</b></td>
+<td>★★★★★ (4.8)</td>
+<td align="center">
+<video width="180" controls>
+<source src="blocks.mp4" type="video/mp4">
+</video>
+</td>
+<td align="center">
+<button>Add to Cart</button>
+<br><br>
+<button>Buy Now</button>
+</td>
+</tr>
+<tr>
+
+<td align="center">
+<img src="action.jpg" width="120" height="120">
+</td>
+<td><b>Action Figure</b></td>
+<td>
+Superhero action figure with
+removable accessories and movable joints.
+</td>
+<td><b>₹849</b></td>
+<td>★★★★☆ (4.6)</td>
+<td align="center">
+<video width="180" controls>
+<source src="figure.mp4" type="video/mp4">
+</video>
+</td>
+<td align="center">
+<button>Add to Cart</button>
+<br><br>
+<button>Buy Now</button>
+</td>
+</tr>
+</table>
+<br>
+<center>
+<a href="product.html">
+<button>Back to Products</button>
+</a>
+
+</center>
+</body>
+</html>
+CART.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping Cart & Checkout</title>
+</head>
+<body style="background-color:pink";>
+<section id="shopping-cart">
+<center>
+<h2>Your Shopping Cart</h2>
+</center>
+<table border="1" width="100%">
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Total</th>
+<th>Action</th>
+</tr>
+<tbody>
+<tr>
+<td>Barbie doll</td>
+<td>500.0</td>
+<td>
+
+<input type="number" value="1" min="1" max="10">
+</td>
+<td>$500.0</td>
+<td><button type="button">Remove</button></td>
+</tr>
+</tbody>
+</table>
+<div id="cart-summary">
+<p><strong>Subtotal:</strong> 500.00</p>
+<p><strong>Shipping:</strong> Free</p>
+<h3><strong>Grand Total:</strong> 500.00</h3>
+</div>
+</section>
+<hr>
+<section id="checkout-payment">
+<h2>Secure Payment</h2>
+<form>
+<fieldset>
+<legend>Billing Information</legend>
+<p>
+<label for="full-name">Full Name:</label>
+<input type="text" id="full-name" name="fullName" required placeholder="Enter Name">
+</p>
+<p>
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="email" required placeholder="Enter Email">
+</p>
+
+</fieldset>
+<fieldset>
+<legend>Credit or Debit Card</legend>
+<p>
+<label for="card-num">Card Number:</label>
+<input type="text" id="card-num" name="cardNumber" required pattern="\d{16}" placeholder="1234567812345678" maxlength="16">
+</p>
+<p>
+<label for="cvv">CVV:</label>
+<input type="password" id="cvv" name="cardCVV" required pattern="\d{3,4}" placeholder="123" maxlength="4">
+</p>
+</fieldset>
+<!-- Submit Action -->
+<p>
+<button type="submit">Pay Now</button>
+</p>
+</form>
+</section>
+</body>
+</html>
+
 
